@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avatar</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .rounded-image {
+        width: 60%;
+        height: 80%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        border-radius: 50%;
+        padding: 0.6em;
+        margin-bottom: 1em;
+      }
+      .black-back:hover {
+        color: white;
+        background-color: black;
+      }
+      .black-back {
+        color: white;
+        background-color: black;
+      }
+      .btnstyle {
+        color: white;
+        border-color: white;
+      }
+      .mbot{
+        margin-bottom: 100px;
+      }
+      .mleft{
+        text-indent: 2em;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar bg-dark">
+      <div class="container">
+        <form class="container-fluid justify-content-start width">
+          <a class="navbar-brand p-0" href="Idea.html">
+            <img src="./images/Me.png" alt="TOF" width="80" />
+          </a>
+          <button class="btn btn-outline-success me-2" type="button" ;>
+            <a
+              class="nav-link active btnstyle"
+              aria-current="page"
+              href="Idea.html"
+              >Main menu</a
+            >
+          </button>
+          <button class="btn btn-sm btn-outline-secondary" type="button">
+            <a
+              class="nav-link active btnstyle"
+              aria-current="page"
+              href="MoreInfo.html"
+              >Avatar</a
+            >
+          </button>
+          <button class="btn btn-sm btn-outline-secondary" type="button">
+            <a
+              class="nav-link active btnstyle"
+              aria-current="page"
+              href="Calc.html"
+              >Calculator</a
+            >
+          </button>
+          <button class="btn btn-sm btn-outline-secondary" type="button">
+            <a
+              class="nav-link active btnstyle"
+              aria-current="page"
+              href="Coop.html"
+            >
+              Cooperation</a
+            >
+          </button>
+        </form>
+      </div>
+    </nav>
+    <div class="dropdown">
+      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Heroes
+      </a>
+    
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#" onclick="handleClick('aang')" >Aang</a></li>
+        <li><a class="dropdown-item" href="#" onclick="handleClick('katara')" >Katara</a></li>
+        <li><a class="dropdown-item" href="#" onclick="handleClick('sokka')" >Sokka</a></li>
+        <li><a class="dropdown-item" href="#" onclick="handleClick('tof')" >Tof</a></li>
+        <li><a class="dropdown-item" href="#" onclick="handleClick('zuko')" >Zuko</a></li>
+      </ul>
+    </div>
+    <div class="container text-center mbot">
+      <div class="col-lg-12 col-md-12 col-sm-12 mx-auto">
+        <img src="./images/avatar.png" alt="TOF BEYFONG" class="rounded-image" />
+        <h1 class="fw-light my-1">Avatar the last airbender</h1>
+        <p class="lead text-muted my-3">
+          The best serial that I watched.IMHO
+        </p>
+      </div>
+    </div>
+    <div class="container my-5">
+      <div class="col-lg-12 col-md-12 col-sm-12 mx-auto">
+        <img id="aang" src="./images/avataraang.jpg" alt="Aang" width="800" />
+        <h1 class="fw-light my-1">Aang. The Avatar</h1>
+        <p  class="lead text-muted my-3 mleft">
+          Aang is the only remaining member of the Air Nomad nation that was freed by the Fire Nation in AD 0. He is an Avatar - a person who uses all four types of magic: air, water, earth and fire. It was for the purpose of obtaining it that the Fire Nation attacked the peaceful monks. Aang escaped from his tutors, who did not expect events, but was frozen in an iceberg in case of a possible century ago. All this time the world was at war. After awakening, Aang must fulfill his mission: master all kinds of magic and return the world.
+        </p>
+        <img id ="katara" src="./images/katara.jpg" alt="Katara" width="800" />
+        <h1 class="fw-light my-1">Katara</h1>
+        <p class="lead text-muted my-3  mleft">
+          Katara is the daughter of the leader of the Southern Water Tribe of Hakoda and the only waterbender at the South Pole. She has an older brother, Sokka. Their mother died after one of the Fire Nation's attacks while protecting her daughter. When all the adult males of the Tribe went to war, including their father, Katara and Sokka took over running the village and providing food for its inhabitants. One day, while fishing, they discovered an ice sphere with a boy imprisoned inside, who turned out to be the Avatar and dramatically changed the girl's life.
+        </p>
+        <img id ="sokka" src="./images/sokka.jpg" alt="Sokka" width="800"/>
+        <h1 class="fw-light my-1">Sokka</h1>
+        <p class="lead text-muted my-3 mleft">
+          Sokka is a member of the Avatar team and the son of the leader of the Southern Water Tribe, Hakoda, and his wife, Kaya.
+He lived with his grandmother Kanna and younger sister Katara before they met Aang. When he was 8 years old, the Southern invaders came to his tribe, and in this battle he lost his mother. Later, Hakoda makes a difficult choice and, along with other warriors, goes to war against the Fire Nation, leaving his son in charge. He took on the responsibility of protecting the tribe.
+
+When he and his sister discovered the airbender, Sokka at first did not trust him, believing that Aang was a spy for the Fire Nation, but then they became best friends.
+        </p>
+        <img id ="tof" src="./images/img.jpg" alt="TOF BEYFONG" width="800" />
+        <h1 class="fw-light my-1">Tof Beyfong</h1>
+        <p class="lead text-muted my-3 mleft">
+          Toph Beifong is the only child of Lao and Poppy Beifong. Her parents are some of the richest people in the Earth Kingdom. Toph was born blind and from childhood she was surrounded by constant care and attention. However, excessive guardianship disgusted the independent character of the girl. Toph found herself in the magic of the earth and, thanks to her, learned to see the world around her. Having met with Aang, she decided to take a desperate step and ran away from home to teach the Avatar earthbending.
+        </p>
+        <img id ="zuko" src="./images/zuko.jpg" alt="Zuko" width="800" />
+        <h1 class="fw-light my-1">Zuko</h1>
+        <p class="lead text-muted my-3 mleft">
+          Zuko is the Prince of the Fire Nation, the son of the Fire Lord Ozai and his wife Ursa. He is easily recognizable by the burn scar on the left side of his face, which he received from his father for refusing to fight during their Agni Kai. For such unworthy behavior, Zuko was banished from the land of Fire until he finds the Avatar, who has not been seen for 100 years. On this journey, he found not only new friends, but also himself.
+        </p>
+    </div>
+    <script>
+      function handleClick(idToScroll) {
+      const elementToScroll = document.getElementById(idToScroll);
+      const y = elementToScroll.getBoundingClientRect().top + window.scrollY;
+window.scroll({
+  top: y,
+  behavior: 'smooth'
+});
+    }
+    </script>
+  </body>
+</html>
